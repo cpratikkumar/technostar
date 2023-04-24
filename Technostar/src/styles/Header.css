@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+nav h1 {
+  text-transform: uppercase;
+}
+nav main {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+nav main a {
+  color: black;
+  margin: 1rem;
+}
+nav main a:hover {
+  color: rgb(17, 99, 222);
+}
+@media screen and (max-width: 577px) {
+  nav main {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav main a {
+    color: black;
+    margin: 0px 5px;
+    font-size: 10px;
+  }
+  nav h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}

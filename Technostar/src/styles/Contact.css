@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(47, 160, 197);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact main {
+  height: 70%;
+  width: 70%;
+  background-color: burlywood;
+  border-radius: 0px 100px 100px 0px;
+  padding: 3rem;
+}
+.contact main h1 {
+  text-align: center;
+  text-shadow: 2px 2px 3px rgb(58, 54, 54);
+  margin-bottom: 30px;
+}
+
+form {
+  line-height: 40px;
+}
+form div label {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(9, 88, 9);
+  text-shadow: 2px 2px 3px rgb(12, 169, 12);
+}
+form div input {
+  margin-left: 20px;
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  outline: none;
+}
+form div #name {
+  margin-left: 45px;
+}
+form div #email {
+  margin-left: 50px;
+}
+form div input:focus {
+  background-color: darkolivegreen;
+  color: burlywood;
+  border-color: black;
+}
+form div input:hover {
+  height: 35px;
+  width: 350px;
+  background-color: darkolivegreen;
+  color: burlywood;
+  border-color: black;
+}
+main button {
+  border-radius: 10px;
+  width: 85px;
+  height: 30px;
+  position: relative;
+  left: 30%;
+  top: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: linear-gradient(burlywood, orange),
+    radial-gradient(darkorange, red);
+  box-shadow: 2px 2px 1px 0px rgb(127, 87, 34);
+}
+main button:hover {
+  width: 90px;
+  height: 35px;
+  font-size: 25px;
+}
+@media screen and (max-width: 736px) {
+  .contact main h1 {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(58, 54, 54);
+    margin-bottom: 15px;
+  }
+  form div label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(9, 88, 9);
+    text-shadow: 2px 2px 3px rgb(12, 169, 12);
+  }
+  form div input {
+    margin-left: 20px;
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+  }
+  form div #name {
+    margin-left: 40px;
+  }
+  form {
+    line-height: 30px;
+  }
+  form div #email {
+    margin-left: 45px;
+  }
+}
+@media screen and (max-width: 555px) {
+  .contact main h1 {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(58, 54, 54);
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  form div label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(9, 88, 9);
+    text-shadow: 2px 2px 3px rgb(12, 169, 12);
+    margin-left: -20px;
+  }
+  form {
+    line-height: 30px;
+  }
+  form div input:hover {
+    height: 20px;
+    width: 100px;
+    background-color: darkolivegreen;
+    color: burlywood;
+    border-color: black;
+  }
+  form div input {
+    margin-left: 15px;
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+  }
+  form div #name {
+    margin-left: 38px;
+  }
+  form div #email {
+    margin-left: 38px;
+  }
+}
+@media screen and (max-width: 515px) {
+  form div label {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(9, 88, 9);
+    text-shadow: 2px 2px 3px rgb(12, 169, 12);
+    margin-left: -20px;
+  }
+  form {
+    line-height: 30px;
+  }
+  form div input:hover {
+    height: 20px;
+    width: 100px;
+    background-color: darkolivegreen;
+    color: burlywood;
+    border-color: black;
+  }
+  form div input {
+    margin-left: 15px;
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+    outline: none;
+  }
+  form div #name {
+    margin-left: 30px;
+  }
+  form div #email {
+    margin-left: 30px;
+  }
+  .contact main h1 {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(58, 54, 54);
+    margin-bottom: 40px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 454px) {
+  form div input {
+    margin-left: 15px;
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    outline: none;
+  }
+  form div #name {
+    margin-left: 30px;
+  }
+  form div #email {
+    margin-left: 30px;
+  }
+  .contact main h1 {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(58, 54, 54);
+    margin-bottom: 40px;
+    font-size: 25px;
+  }
+  form div label {
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(9, 88, 9);
+    text-shadow: 2px 2px 3px rgb(12, 169, 12);
+    margin-left: -20px;
+  }
+}
